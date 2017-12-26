@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "test123"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D4s_v3"
+        },
+        "adminUsername": {
+            "value": "vmadmin"
+        },
+        "virtualNetworkName": {
+            "value": "elad-net"
+        },
+        "networkInterfaceName": {
+            "value": "test123872"
+        },
+        "networkSecurityGroupName": {
+            "value": "test123-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "commvaultrgdiag895"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/1d0672b2-ffbd-4812-80d1-2fd514972b12/resourceGroups/commvault_rg/providers/Microsoft.Storage/storageAccounts/commvaultrgdiag895"
+        },
+        "subnetName": {
+            "value": "Frontend"
+        },
+        "publicIpAddressName": {
+            "value": "test123-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}

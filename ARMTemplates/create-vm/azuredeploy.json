@@ -10,6 +10,7 @@
     },
     "existingLabName": {
       "type": "string",
+      "defaultvalue": "DevTest_Demo",
       "metadata": {
         "description": "The name of an existing lab where the new vm will be created."
       }
@@ -22,12 +23,14 @@
     },
     "newVMSize": {
       "type": "string",
+      "defaultvalue": "Standard_A4",
       "metadata": {
         "description": "The size of the new vm to be created."
       }
     },
     "userName": {
       "type": "string",
+      "defaultvalue": "vmadmin",
       "metadata": {
         "description": "The username for the local account that will be created on the new vm."
       }
@@ -40,6 +43,7 @@
     },
     "expirationDate": {
       "type": "string",
+      "defaultvalue": "2018-04-01T12:00:00+00:00",
       "metadata": {
         "description": "The expiration date for the VM."
       }
